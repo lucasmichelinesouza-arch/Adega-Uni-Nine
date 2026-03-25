@@ -23,5 +23,8 @@ VALUES
 ('Brahma', 'Cerveja', '10', '3.50');
 
 select*from bebidas;
+use adega;
+alter table login
+drop column NOME;
 
 
